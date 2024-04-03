@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "tnlw",
+    "title": "event 2",
     "details": null,
     "maximumAttendees": 1
 }
@@ -11,10 +11,14 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:3333/events/203ddf17-c9fe-41ba-874a-b121a2ae64dd/attendees
+POST http://localhost:3333/events/44a3b8f2-c939-442e-8608-0d1bb62d49cf/attendees
 Content-Type: application/json
 
 {
     "name": "Paulo Parizz",
-    "email": "paulo21@gmail.com.br"
+    "email": "paulo2122@gmail.com.br"
 }
+
+
+###
+GET http://localhost:3333/events/44a3b8f2-c939-442e-8608-0d1bb62d49cf
