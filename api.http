@@ -1,0 +1,20 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Unitwewrwere",
+    "details": "Evento programação em Node",
+    "maximumAttendees": 100
+}
+
+
+###
+
+
+POST http://localhost:3333/events/630705cc-ff6c-44e2-a699-063c8f9a387d/attendees
+Content-Type: application/json
+
+{
+    "name": "Paulo Pariz",
+    "email": "paulo@gmail.com.br"
+}
